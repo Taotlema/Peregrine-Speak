@@ -1,5 +1,7 @@
 # Peregrine Speak - Application Specifics
 
+## Project Purpose
+
 ### Prerequisites
 - Python 3.8 or higher
 - Linux, macOS, or Windows
@@ -31,7 +33,7 @@
    python main.py
    ```
    
-## 🏗️ Architecture
+## Architecture
 
 ### Core Components
 
@@ -54,7 +56,7 @@ src/
 - **pygame**: Audio playback system
 - **numpy**: Audio data processing
 
-## 📝 Usage Guide
+## Usage Guide
 
 ### Basic Operation
 1. **Launch** the application with `python main.py`
@@ -71,7 +73,7 @@ export KOKORO_DEBUG=1
 python main.py
 ```
 
-## 📦 Dependencies
+## Dependencies
 
 ### Core Requirements
 ```
@@ -95,7 +97,7 @@ misaki[en]             # English phonemization
 espeak-ng              # Phoneme generation
 ```
 
-## 🎯 Performance
+## Performance
 
 ### Synthesis Speed
 - **GPU**: ~2-5x real-time (depending on hardware)
@@ -107,14 +109,15 @@ espeak-ng              # Phoneme generation
 - **Peak**: ~500MB (during synthesis)
 - **Streaming**: Efficient for long texts
 
-## 🤝 Contributors
+## Contributors
 
-## 📄 License
+Most definently need to credit the billaint developer behiend Kokoro
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+## License
+
+Need to update
 
 ## Acknowledgments
-
 - **Kokoro TTS**: For the incredible AI voice synthesis technology
 - **PyQt6**: For the robust GUI framework
 - **PyTorch**: For the machine learning infrastructure
