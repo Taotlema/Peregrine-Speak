@@ -1,0 +1,6 @@
+# Build dependencies for creating distributable packages
+pyinstaller>=5.10.0
+auto-py-to-exe>=2.34.0  # GUI for PyInstaller (optional)
+
+# Include all runtime dependencies
+-r requirements.txt

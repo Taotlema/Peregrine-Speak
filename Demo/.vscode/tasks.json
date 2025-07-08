@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Peregrine Speak",
+			"type": "shell",
+			"command": "/home/ayemhenre/Documents/GitHub/Peregrine-Speak/Demo/.venv/bin/python",
+			"args": [
+				"main.py"
+			],
+			"group": "build",
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
